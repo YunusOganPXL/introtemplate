@@ -5,10 +5,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
 html,
-/* add a smooth scroll effect */
-html {
-  scroll-behavior: smooth;
-}
 body {
   font-family: "Montserrat", sans-serif;
   height: 100%;
@@ -17,7 +13,16 @@ body {
   padding: 0;
   width: 100%;
 }
-
+/* add a smooth scroll effect*/ 
+/* add a scroller that bounces up and down when the user scrolls */
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+html {
+  scroll-behavior: smooth;
+}
 div#main {
   display: flex;
   flex-direction: column;
@@ -126,4 +131,13 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+/* add a slide In Left animation */ 
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
