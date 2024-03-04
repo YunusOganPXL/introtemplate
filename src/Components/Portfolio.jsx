@@ -21,8 +21,6 @@ import React from "react";
  */
 import image from "../images/luke-miller-cJc10ctjwnw-unsplash.jpg";
 
-const imageAltText = "Gloomy forest Photo by Luke Miller on Unsplash.";
-
 /**
  * Project list
  *
@@ -62,7 +60,15 @@ const Portfolio = () => {
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-        <img src={image} style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideInLeft" }} />
+          <img
+            src={image}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideInLeft",
+            }}
+          />
         </div>
         <div className="container">
           {projectList.map((project) => (

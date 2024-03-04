@@ -5,7 +5,7 @@
  */
 
 import React from "react";
-
+import Education from "./Components/Education";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -13,7 +13,7 @@ import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
-
+<Education></Education>;
 /**
  * This object represents your information. The project is set so that you
  * only need to update these here, and values are passed a properties to the
@@ -44,6 +44,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Education /> {/* Corrected closing tag */}
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
