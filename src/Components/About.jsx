@@ -16,15 +16,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/hassan-pasha-abOv3wOl6Dk-unsplash.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Snake coiled up in a tree. Photo by Hassan Pasha on Unsplash.";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm an associate graduate student studying systems and network engineering at PXL. I want to get my bachelors degree in applied informatics. I am passionate about creating user interfaces that are accessible to all. I am always looking for new ways to make tech more inclusive.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +32,11 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Linux",
+  "Communication skills",
+  "Windows Server",
+  "Cisco",
+  "AWS",
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about learning new things in IT such as cybersecurity and hacking etc";
 
 const About = () => {
   return (
